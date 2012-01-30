@@ -330,6 +330,9 @@ class Robin {
 	
 	function displayTxt($txt) {
 		$txt = ' '.$txt; // added because of a weird bug with the regex
+		
+		$txt = preg_replace("#((http|https|ftp)://(\S*?\.\S*?))(\s|\;|\)|\]|\[|\{|\}|,|\"|'|:|\<|$|\.\s)#ie","'<a href=\"$1\" target=\"_blank\">$3</a>$4'",$txt);
+		
 		preg_match('{(\d+)}', $txt, $m); 
 		if(count($m) > 0){
 			$nid = $m[0];
@@ -344,6 +347,9 @@ class Robin {
 			$txt = preg_replace('/@(\w+)/','<a href="index.php?u=$1">@$1</a>',$txt);
 		}
 		$txt = preg_replace('/\s+#(\w+)/',' <a href="index.php?q=%23$1">#$1</a>',$txt);
+		
+		
+		
 		return $txt;
 	}
 	
