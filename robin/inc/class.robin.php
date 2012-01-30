@@ -347,9 +347,7 @@ class Robin {
 			$txt = preg_replace('/@(\w+)/','<a href="index.php?u=$1">@$1</a>',$txt);
 		}
 		$txt = preg_replace('/\s+#(\w+)/',' <a href="index.php?q=%23$1">#$1</a>',$txt);
-		
-		
-		
+
 		return $txt;
 	}
 	
