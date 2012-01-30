@@ -1,0 +1,155 @@
+body { background: #c5bbbb; }
+a,a:visited { text-decoration: none; font-weight: bold; color: #333 !important; }
+a:hover,a:active{ color: #666 !important; }
+.clear { clear: both; }
+.right { float: right; }
+.left { float: left; }
+
+.user { padding: 20px 0 20px 0; border-bottom: 1px solid #eee; }
+	.user span { position: relative; top: -10px; }
+	
+#search {
+	position: absolute;
+	margin: 1px 0 0 130px;
+}
+	#search input {
+		width: 300px;
+		padding: 3px;
+		font-size: 11px;
+		color: #999;
+	}
+	
+#about {
+	background: #930000;
+	padding: 15px;
+	font-size: 14px;
+	color: #ddd;
+	line-height: 24px;
+}
+	#about h1 { font-size: 24px; color: #fff; }
+	#about h2 { margin: 30px 0 0 0; font-size: 18px; color: #fff; font-weight: normal; }
+	#about a, #about a:visited { color: #fff !important; text-decoration: underline; }
+	#about a:hover, #about a:active { color: #eee !important; text-decoration: none; }
+	#about strong { color: #fff; }
+
+.btn,.btn:visited { 
+	background: #930000; 
+	padding: 10px; 
+	font-size: 14px; 
+	font-weight: bold; 
+	color: #fff !important; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	top: 10px;
+}
+.btn:hover,.btn:active {
+	background: #444; 
+	color: #fff !important;
+}
+	
+#container { width: 1000px; margin: 0 auto; }
+
+header { 
+	padding: 5px 15px 5px 15px; 
+	background: #000;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border: 1px solid #555;
+	margin: 0 15px 0 15px;
+	position: fixed;
+	width: 930px;
+}
+	header a, header a:visited { color: #fff !important; }
+	header a:hover, header a:active{ color: #ccc !important; }
+	header figure {
+		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTM3NDAxNkU0OUY4MTFFMUI1MThCN0M2QzM2OTEzOUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTM3NDAxNkY0OUY4MTFFMUI1MThCN0M2QzM2OTEzOUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxMzc0MDE2QzQ5RjgxMUUxQjUxOEI3QzZDMzY5MTM5RCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxMzc0MDE2RDQ5RjgxMUUxQjUxOEI3QzZDMzY5MTM5RCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ptpr3xsAAAJ8SURBVHja5JdbiE1hFMfPp2M0Lpk0jcQY8YChJCK8uT14mDzMlJoJefAwzTQvvCqheFAyo5SGFyXCg2vK0+SSQmZyizwwudRIHWRwzBy/VX/T7th7O2dfOg9W/frO7Pm+vda3vrXWt7YrFAqZSsq4TIWl4ga47pgv6Ag4wh7nVjJ0whx4BzfgJTRrSj9re7Np7ArltQztsBkmwTAshE8wAw7DgM3NpqDcMeyErZ7H1bAYfskrJ9j9aFox0Kjd+8lzuPxHeeIGsPsqhh0wM2DKeJiYShagfBXDIdgWMm06LEo0C5A62AVtCrB/yW1otczgKPJxPbAETsPuEpWbrIEu2Bg3C9bCMVgQYe0mqIGrUQ1YbakEcyOut3VfogbhCjgZQ7nJN/gaxYAGuX1+zNjpVzCWZcA86IXlCWTtPegrx4B1cE5jXPkBd+FRqVmwBY6oiCQhj+EhfCzFgA1gtao2wYp9Bt50qBULO4IWpVqSyi/pJhxrIvw8MAW2wwH9TkquqQJ+9j70GjANlqnCtUj5CAxCQTdcVcScPwX74UPxP82AqcrrpVCvpuEKTIAHcF+GRbm3LNqPwlltIuNnQIPqcp8m1StCn8F3mAx71NWYvFIhsXTKqfPx3vE5zWlU63UhzMKsGkVTlpeL3+slJrNVfNbDLbhoHQ0M6XjyUt4Ed5Tb5r0XOsZudUFPwgwY9vz9U2R0BJ0am+ShnM87zqs6NmvtiJ4fl2ev6woeDDIgSEYVPPuKI7dIXqspKd6MyUF58aaC+205Hybm3qchyp3HazXq//2kXTFlwTwrjS+jIZ15LsBAk70KzL+ucBfn47THudhfU+6//zr+LcAA3oafyrDI360AAAAASUVORK5CYII%3D') top left no-repeat;
+		padding: 5px 0 5px 35px;
+		font-size: 16px;
+	}
+	header nav {
+		float: right;
+	}
+		header nav ul { padding: 5px; }
+			header nav ul li {
+				display: inline;
+				margin: 0 10px 0 10px;
+			}
+
+#main { padding: 65px 15px 25px 15px; }
+	#main aside {
+		padding: 15px;
+		background: #f0e8e8;
+		width: 250px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		margin: 0 0 0 190px;
+		border: 1px solid #afa7a7;
+		position: fixed;
+		left: 50%;
+	}
+	
+#tab {
+	padding: 15px;
+	background: #fff;
+	width: 620px;
+	min-height: 300px;
+	float: left;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #afa7a7;
+}
+	#tab .msg { padding: 15px 0 15px 0; border-bottom: 1px solid #eee; }
+		#tab .msg .name { width: 130px; float: left; font-weight: bold; font-size: 13px; margin: 2px 0 0 0; }
+		#tab .msg .txt { width: 450px; float: left; color: #555; line-height: 20px; font-size: 12px; }
+		#tab .msg .time { float: right; color: #aaa; font-size: 11px; }
+		
+#page {
+	padding: 15px;
+	background: #fff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #afa7a7;
+	min-height: 300px;
+}
+
+.profile {
+	padding: 5px;
+	width: 100%;
+}
+	.profile td {
+		vertical-align: top;
+	}
+
+form {}
+	form fieldset {}
+		form fieldset p {}
+			form fieldset input {
+				background: #fff;
+				border: 1px solid #aaa;
+				padding: 5px;
+				font-size: 14px;
+				margin: 5px 0 5px 0;
+			}
+			form fieldset label {
+				display: block;
+				font-size: 11px;
+				color: #555;
+			}
+	form input.submit {
+		padding: 15px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	form span { font-size: 11px; color: #888; }
+
+			
+footer { padding: 15px; font-size: 11px; color: #333; border-top: 1px solid #9d9494; text-align: center; }
