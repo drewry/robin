@@ -1,0 +1,8 @@
+=== Robin v1.0.2 ===
+Released 01/29/2012
+
+1. Go to the root directory and run install.php
+2. Make sure curl is installed on your server and that 'inc' has write access
+3. Setup a Database
+4. Test the DB connection and run the install
+5. Delete install.php and install.sql
