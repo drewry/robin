@@ -1,6 +1,6 @@
 # Robin
 
-What is Robin? Robin was originally released in January 2012 during the [Arab Spring](https://en.wikipedia.org/wiki/Arab_Spring). Free speech was under threat and the need for a decentralized town square for humanity was clear. Now, 10 years later, there are additional concerns that this is once again under threat.
+What is Robin? Robin was [originally released](https://github.com/drewry/Robin/commit/fb150ce258b30f7ac635d0f0f3d876920771f9d6) in January 2012 during the [Arab Spring](https://en.wikipedia.org/wiki/Arab_Spring). Free speech was under threat and the need for a decentralized town square for humanity was clear. Now, 10 years later, there are additional concerns that this is once again under threat.
 
 The inspiration for Robin comes from the concept of a _round robin_. Originally a round robin, or _le ruban rond_, was a practice used in 18th century France to sign protests against the King. Signatures were signed in a circle to hide who the organizer was. This gave people a voice, while reducing the fear of being shut down.
 
